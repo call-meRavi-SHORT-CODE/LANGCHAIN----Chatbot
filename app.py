@@ -32,8 +32,7 @@ promt = ChatPromptTemplate.from_messages(
 st.title("Lanchain Chatbot")
 input_text = st.text_input("Search the topic")
 
-## groq llm
-# llm = 
+
 llm = init_chat_model("llama3-8b-8192", model_provider="groq")
 
 output_parser = StrOutputParser()
