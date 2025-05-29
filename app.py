@@ -10,7 +10,6 @@ from dotenv import load_dotenv
 
 #os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
-# Langsirth
 LANGSMITH_TRACING="true"
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
 LANGSMITH_API_KEY="<yourapikey>"
